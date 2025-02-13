@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Responsive Cart Page</title>
+    <link rel="stylesheet" href="index.css" />
+    <script defer src="script.js"></script>
+  </head>
+
+  <body>
+    <header>
+      <div class="header-container">
+        <div class="logo">
+          <h1>Marmeto</h1>
+        </div>
+        <nav>
+          <ul class="nav-links">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Shop</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </nav>
+        <div class="cart-icon">
+          <img src="cart-icon.png" alt="Cart" />
+          <span id="cart-count">0</span>
+        </div>
+      </div>
+    </header>
+
+    <main class="cart-container">
+      <section class="cart-items">
+        <h2>Your Cart</h2>
+        <div id="cart-list"></div>
+      </section>
+
+      <aside class="cart-totals">
+        <h2>Cart Totals</h2>
+        <p>Subtotal: <span id="subtotal">₹0.00</span></p>
+        <p>Total: <span id="total">₹0.00</span></p>
+        <button id="checkout">Check Out</button>
+      </aside>
+    </main>
+
+    <footer>
+      <p>&copy; 2025 Your Store. All rights reserved.</p>
+    </footer>
+  </body>
+</html>
